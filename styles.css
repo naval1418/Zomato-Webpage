@@ -35,17 +35,30 @@ background-color: #fff ;
 }
 
 .hero__image__container {
+display: flex;
   width: 100% ;
-  
+  position: relative;
 }
+
+
+
 
 .hero__image{
   width: 100% ;
   border-radius: 8px;
   box-shadow: 0 25px 50px 50px -12px rgb(0 0 0 / 25%);
+  z-index: 4
 }
-
-
+.firt__back__logo {
+  width: 100% ;
+ position: absolute;
+ z-index:3
+}
+.second__back__logo {
+    width: 100% ;
+position: absolute;
+z-index: 3 ;
+}
 .button__primary {
   background-image: linear-gradient(
     to right,
@@ -65,6 +78,7 @@ background-color: #fff ;
   padding: 20px 0 ;
   color: #1D3557 ;
   font-weight: 800 ;
+  margin-top: 50px ;
 }
 
 .food__card__description {
@@ -158,6 +172,7 @@ font-weight: 600 ;
   font-weight: 600 ;
   color: white ;
   height: 60px ;
+  border-radius: 8px ;
 }
 
 .updated:hover {
@@ -220,6 +235,9 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .navbar{
+    height: 50px ;
+  }
   .explore__menu__lists {
     display: flex;
     gap : 15px ;
@@ -288,6 +306,7 @@ padding: 5px ;
  .updated {
      height: 40px ;
      margin-left: 20%;
+     border-radius: 8px ;
  }
  .slogan {
    width: 738px;
@@ -338,6 +357,7 @@ border-radius: 12px ;
 }
 
 .explore__menu__text {
+  margin-top: 50px ;
   font-size: 48px ;
 }
 
@@ -373,18 +393,19 @@ width:  100% ;
 }
 
 .mailbox {
-  width: 300px ;
+  width: 325px ;
 padding: 5px ;
   margin-left: 40%;
   height : 25px ;
 }
 .updated {
+    border-radius: 8px ;
     height: 60px ;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 160px ;
 }
 .notification__text {
-  margin-left: 210px ;
+  margin-left: 240px ;
   font-size: 45px ;
 }
 .slogan {
