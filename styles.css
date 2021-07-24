@@ -12,7 +12,7 @@ body {
   height: 80px;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content:space-around;
 background-color: #fff ;
 }
 
@@ -36,6 +36,7 @@ background-color: #fff ;
 
 .hero__image__container {
   width: 100% ;
+  
 }
 
 .hero__image{
@@ -84,7 +85,7 @@ background-color: #fff ;
 }
 
 .explore__menu__text {
-   margin-top: 30px ;
+   margin-top: 5px ;
    margin-bottom: 20px;
    text-align: center;
    color: #1D3557 ;
@@ -128,8 +129,95 @@ font-weight: 800;
   height : 80px ;
   width: 150px ;
 }
+.notification {
+  width: 100% ;
+
+}
+.email__address {
+  width: 50% ;
+
+}
+.mailbox {
+height: 30px ;
+width: 200px ;
+padding: 2px ;
+border-color: #CF0000 ;
+background-color: #FCEDF0 ;
+border-radius: 6px ;
+color: black ;
+font-weight: 600 ;
+}
+.click__button{
+  width: 50% ;
+}
+.updated {
+  margin-left: 60px ;
+  padding: 5px 20px ;
+  background-image: linear-gradient(to right,#ff512f 0% ,#dd2476 51%,#ff512f 100%);
+  border: none ;
+  font-weight: 600 ;
+  color: white ;
+  height: 60px ;
+}
+
+.updated:hover {
+  border: 4px solid black ;
+  cursor: pointer;
+}
+.notification__text{
+  margin-top:60px ;
+  margin-bottom: 20px;
+  font-weight: 800 ;
+  color: #1D3557 ;
+}
+.your__info {
+  display: flex ;
+  align-items: center;
+}
 
 
+
+.query__list {
+  list-style-type: none ;
+}
+.main_text_tag {
+  padding: 30px 0 ;
+  font-size: 50px ;
+  font-weight: 1200 ;
+  color: white ;
+}
+.slogan {
+  width: 340px ;
+  height: 230px ;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  border-radius: 10px ;
+  box-sizing: border-box;
+
+}
+
+.slogan__text {
+  color: white ;
+  padding-top: 80px ;
+  padding-left: 10px  ;
+  text-align: center;
+
+}
+
+footer {
+  background-color: black ;
+ width: 100% ;
+}
+.footer__logo {
+  padding-left: 30px ;
+}
+.query__list {
+  padding-left:  110px ;
+  padding-bottom: 20px ;
+  font-size: 20px ;
+  color: white ;
+}
 
 @media (min-width: 768px) {
   .explore__menu__lists {
@@ -155,7 +243,7 @@ background-image: linear-gradient(
    #ff512f 100%
   );
 z-index: -3;
-transform: skewY(-5deg);
+transform: skewY(-7deg);
 }
 #pizza__card {
   margin-top: -20px ;
@@ -180,6 +268,44 @@ transform: skewY(-5deg);
 }
 .rest__text {
   font-size: 30px ;
+}
+.your__info {
+  padding-left: 45px ;
+}
+.click__button {
+  padding-left: 20px ;
+}
+.notification__text {
+  margin-left: 150px ;
+  font-size: 30px ;
+  font-weight: 800 ;
+}
+ .mailbox {
+   width: 300px ;
+padding: 5px ;
+   margin-left: 30%;
+ }
+ .updated {
+     height: 40px ;
+     margin-left: 20%;
+ }
+ .slogan {
+   width: 738px;
+   height: 300px ;
+  padding-top: 50px ;
+border-radius: 12px ;
+ }
+ .slogan__text {
+   font-size: 30px;
+   font-weight: 600 ;
+   text-align: center;
+ }
+
+ footer {
+   display: flex;
+ }
+.list__of__options {
+  margin-top: 50px ;
 }
 }
 @media (min-width: 1024px) {
@@ -244,6 +370,29 @@ width:  100% ;
 .img4 {
   height : 160px ;
   width: 240px ;
+}
+
+.mailbox {
+  width: 300px ;
+padding: 5px ;
+  margin-left: 40%;
+  height : 25px ;
+}
+.updated {
+    height: 60px ;
+    margin-left: 2%;
+    width: 160px ;
+}
+.notification__text {
+  margin-left: 210px ;
+  font-size: 45px ;
+}
+.slogan {
+  width: 100% ;
+}
+
+footer {
+  justify-content: center;
 }
 
 }
